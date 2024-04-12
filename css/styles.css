@@ -428,9 +428,11 @@ span{
 }
 
 .portfolio-box:hover .portfolio-layer {
-  opacity: 1; /* Set opacity to 1 on hover */
-  transform: scale(1.1);
-}
+    opacity: 1; /* Set opacity to 1 on hover */
+    transform: scale(1.1);
+    padding-left: 30px;
+    padding-right: 30px;
+ }
 .portfolio-layer h4{
   font-size: 3.5rem;
 }
@@ -441,10 +443,12 @@ span{
 }
 
 .portfolio-layer i {
-  margin: 1rem;
-  font-size: 2rem;
-  color: var(--main-color);
+    margin: .3rem 0 1rem;
+    font-size: 2rem;
+    color: var(--main-color);
 }
+
+
 
 .contact h2{
   margin-bottom: 3rem;
